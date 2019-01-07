@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Pontano+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+*{margin:0; padding:0;}
+body{
+	background-image: url('BG.jpg');
+	background-size: cover;
+	z-index:1;
+}
+#container{
+	box-sizing: border-box;
+	background-color:rgba(0,0,0,0.8);
+	height:470px;
+	width:400px;
+	margin:100px auto;
+	
+	padding:30px;
+	color:white;
+	z-index:2;
+}
+#log-container h2{
+	font-family: 'Varela Round', sans-serif;
+	position:relative;
+	top:-18px;
+}
+
+#log-container{
+	padding-top:80px;
+}
+#log-container p{
+	margin-top:10px;
+	margin-bottom:8px;
+	font-size: 20px;
+	font-weight: 300px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#log-container input{
+	width:100%;
+	border: none;
+	height:32px;
+	padding:5px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+#log-container button{
+	margin-top:27px;
+	width:50%;
+	height:37px;
+	background-color: #67ADF3;
+	border: none;
+	font-family: 'Oxygen', sans-serif;
+	font-weight:300;
+	color:#F5F7F9;
+	font-size: 15px;
+	border-radius: 100px;
+}
+
+#log-container button:hover{
+	background-color:rgba(0,0,0,0.8);;
+	cursor:pointer;
+	border: 1px solid white;
+	color:white;
+}
+
+
+
+
+
